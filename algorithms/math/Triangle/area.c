@@ -15,20 +15,23 @@ int main()
     {
     case 1:
         {
-            printf("Enter the sides of triangle: ");
+            printf("Enter the sides of triangle:  ");
             double a, b, c;
             scanf("%lf%lf%lf", &a, &b, &c);
             double area = areabyside(a,b,c);
-            printf("Area of the given Triangle is %.2lf", area);
+            printf("Area of the given Triangle is %.2lf=", area);
             break;
         }
     case 2:
         {
-            printf("Enter the height and base of triangle: ");
+            printf("Enter the height and base of triangle:/n Height:");
             double h, b;
-            scanf("%lf%lf", &h, &b);
+            scanf("%lf", &h);
+            printf("/nBase:")
+            scanf("%lf", &b);
+            
             double area = areabyheight(h ,b);
-            printf("Area of the given Triangle is %.2lf", area);
+            printf("Area of the given Triangle is %.2lf=", area);
             break;
         }
     }
