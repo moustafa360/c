@@ -50,7 +50,7 @@ int main()
 	printf("Unsorted array: \n");
 	printArray(arr, n);
   bubbleSort(arr, n);
-  printf("Sorted array: \n");
+  printf("--------------------------\n Sorted array: \n");
   printArray(arr, n);
   return 0;
 }
